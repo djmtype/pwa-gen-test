@@ -1,0 +1,18 @@
+{
+  "name": "pwa-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pwa": "pwa-asset-generator public/logo.svg ./assets --background 'url(wallpapercrafter.com/sizes/2560x1440/10631-starry-sky-stars-space-dark-astronomy-4k.jpg) no-repeat center center fixed' --splash-only"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "pwa-asset-generator": "^6.2.0"
+  }
+}
